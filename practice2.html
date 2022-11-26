@@ -132,6 +132,59 @@
                 </tbody>
             </table>
         </section>
+
+        <!-- Form Section -->
+
+        <section class="px-5 py-3 mt-3 bg-dark text-white">
+            <div class="title text-center mb-3">
+                <h3 class="text-success fs-1 fw-bold text-center font-weight-bolder my-3">Bootstrap Form</h3>
+            </div>
+            <form>
+                <div class="mb-3 form-floating text-dark px-2 py-1">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" class="form-control-inline">
+                </div>
+                <!-- Form Floating is not working according to lecture -->
+                <div class="mb-3 form-floating px-2 py-1">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" class="form-control-inline">
+                    <div class="form-text">
+                        Your email will remain private. We will not share it anyone.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="radio" id="male" class="form-check-input">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" id="female" class="form-check-input">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input type="checkbox" id="tmc" class="form-check-input">
+                        <label for="tmc">Terms & Conditions</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="department">Department</label>
+                    <select name="department" id="department" class="form-select-inline">
+                        <option value="cse">CSE</option>
+                        <option value="eee" selected>EEE</option>
+                        <option value="llb">LLB</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-info">Submit</button>
+                </div>
+            </form>
+        </section>
     </main>
     <main>
 

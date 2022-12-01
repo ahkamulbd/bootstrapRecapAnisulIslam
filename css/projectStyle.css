@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-image: url(/images/schoolTeaching.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, .8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Handlee', cursive;
+}
+
+.navbar {
+    padding: 5% 20%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.nav-link:hover {
+    background: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}

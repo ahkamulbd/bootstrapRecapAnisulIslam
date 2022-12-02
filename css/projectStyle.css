@@ -47,3 +47,34 @@ header {
     color: white;
     transform: scale(1.1);
 }
+
+/* Features Section */
+
+.features {
+    background-color: #e8ded2;
+    padding: 20px;
+
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    margin: 20px;
+    padding: 10px;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: grey;
+}
+
+.icon-style {
+    font-size: 30px;
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.para {
+    text-align: justify;
+}

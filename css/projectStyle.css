@@ -17,6 +17,17 @@ h6 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
 header {
     background-image: url(/images/schoolTeaching.jpg);
     background-position: center;
@@ -78,3 +89,61 @@ header {
 .para {
     text-align: justify;
 }
+
+/* Features Section End: */
+
+/* Tutorial Section Start */
+
+#about-me {
+    margin-top: 10px 10px;
+    background-color: #e8ded2;
+    padding: 30px;
+}
+
+#about-me h5 {
+    font-weight: bold;
+}
+
+#about-me .personal-info p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#about-me .achievement p {
+    text-align: justify;
+}
+
+/* Tutorial Section End */
+
+/* Feedback Section Start */
+
+#feedback {
+    background-color: #5e88cf;
+}
+
+.carousel-item {
+    align-items: center;
+    padding: 7% 15%;
+}
+
+/* Feedback Section End */
+
+/* Contact Section Start */
+#contact {
+    background-color: #114e4e;
+    padding: 3% 10%;
+}
+
+/* Contact Section End */
+
+/* Footer Section Start */
+#footer-section {
+    background-color: #1707ca;
+}
+
+#footer-section a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer Section End */
